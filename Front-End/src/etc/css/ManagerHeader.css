@@ -1,0 +1,21 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.Month{
+    height: 100px;
+    font-size: 80px;
+    font-weight: 200px;
+    color: #A87EFF;
+    margin-right: 10px;
+}
+
+.month_header{
+    height: 100px;
+    line-height:150px;
+    color: black;
+    vertical-align: bottom;
+    font-size: 20px;
+}

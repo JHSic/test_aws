@@ -1,0 +1,58 @@
+
+#root{
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-manu{
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-top: #854BFF dashed;
+    height: 100%;
+}
+
+.bottom-manu>div{
+    margin: 1rem;
+    font-size: 0.1rem;
+    font-weight: bolder;
+}
+
+div img{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+}
+
+
+.worker-main-link img{
+    margin: auto;
+    width: 2.3rem;
+}
+
+.user-info-link img{
+    width: 2.3rem;
+}
+
+.worker-main-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.worker-main-link span{
+    margin:0 auto;
+}
+
+
+
+@media screen and (max-width: 350px){
+    .bottom-manu>div{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .bottom-manu>div{
+        margin: 5px;
+    }
+}

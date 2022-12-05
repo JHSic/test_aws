@@ -1,0 +1,67 @@
+.ManagerMainSession{
+    width: 100%;
+    height: auto;
+}
+
+.ManagerMain{
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    height: auto;
+    margin-top: 50px;
+    border-top: 3px solid #A87EFF;
+    background-color: white;
+}
+
+.main_element{
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    height: 600px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    color: black;
+    background-color: #E0D1FF;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.main_element_title{
+    color: black;
+    width: 700px;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+.main_worker_element{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    
+}
+
+.main_request_element{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #A87EFF;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+.main_elements{
+    margin: 10px;
+}
+

@@ -1,0 +1,40 @@
+
+.worker-temporary-main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.worker-temporary-main-header{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.worker-temporary-main-session{
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+.worker-temporary-main-bottomMenu{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 650px){
+    .worker-temporary-main-header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .worker-temporary-main-session{
+        padding: 20px;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    .worker-temporary-main-bottomMenu{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

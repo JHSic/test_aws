@@ -1,0 +1,22 @@
+
+.worker-temporary-session-work-list{
+    display: flex;
+    background-color: #E0D1FF;
+    border-radius: 15px;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+.worker-temporary-session-work-list input{
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+
+.worker-temporary-session-work-list li{
+    list-style: none;
+    font-size: large;
+}
+
+.worker-temporary-session-work-list li span{
+    margin-right: 2rem;
+}

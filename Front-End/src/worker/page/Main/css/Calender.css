@@ -1,0 +1,50 @@
+
+.calender-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.week-line{
+    display: flex;
+    justify-content: space-around;
+    background: #EEEEEE;
+    font-weight: 540;
+}
+
+.cell-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+span[class^="cell-day"] {
+    border-left: 1px solid lightgray;
+    align-self: flex-start;
+    width: 100%;
+    height: 5rem;
+}
+
+
+span[class^="cell-week"] {
+    display: flex;
+}
+
+.cell-week-2, .cell-week-4, .cell-week-6{
+    background: #F5F1F1;
+}
+
+.cell-day-work{
+    display: flex;
+    flex-direction: column;
+}
+
+.cell-day-work>span{
+    color: #854BFF;
+}
+
+.day-work-charge{
+    padding-top: 0.5rem;
+}

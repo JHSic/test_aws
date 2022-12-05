@@ -1,0 +1,48 @@
+
+
+.schedule-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.schedule-week-line-container{
+    display: flex;
+    justify-content: space-around;
+    background: #EEEEEE;
+}
+
+.schedule-checkBox-Table-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.schedule-checkBox-Table-contants{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.schedule-checkBox-Table-contant{
+    border: 1px solid lightgray;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.schedule-checkBox-Table-contant:hover{
+    background-color: #828282;
+}
+
+.schedule-timeTable-contant{
+    border-bottom: 1px solid lightgray;
+    width: 10rem;
+}
+
+
+.scadule-check{
+    visibility: hidden;
+}

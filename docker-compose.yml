@@ -1,0 +1,33 @@
+version: "3"
+services:
+  frontend:
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./Front-End
+    #코드 수정후 다시이미지 build없이 코드가 반영 될 수 있게 volume을 사용한다.
+    volumes:
+      - /app/node_modules
+      - ./Front-End:/app
+    stdin_open: true
+
+  nginx:
+    #재시작 정책
+    #no: 어떠한 상황에서도 재시작을 하지 않습니다
+    #always: 항상 재시작
+    #on-failure: 에러코드와 함께 컨테이너가 멈추었을 때만 재시작
+    #unless-stopped 개발자가 임의로 멈추려고 할때 빼고는 항상 재시작
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./nginx
+    ports:
+      - "3000:80"
+
+  backend:
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./Back-End
+    #container_name: app_backend
+    volumes:
+      - /app/node_modules
+      - ./Back-End:/app

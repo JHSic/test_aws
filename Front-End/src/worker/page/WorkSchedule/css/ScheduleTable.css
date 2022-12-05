@@ -1,0 +1,43 @@
+
+
+.worker-schedule-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.worker-schedule-week-line-container{
+    display: flex;
+    justify-content: space-around;
+    background: #EEEEEE;
+}
+
+.worker-schedule-checkBox-Table-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.worker-schedule-checkBox-Table-contants{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.worker-schedule-checkBox-Table-contant{
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 100%;
+}
+
+.worker-schedule-timeTable-contant{
+    border-bottom: 1px solid lightgray;
+    width: 10rem;
+}
+
+
+.worker-schedule-check{
+    visibility: hidden;
+}

@@ -1,0 +1,33 @@
+
+.temporary-work-list{
+    display: flex;
+    margin: 0.2rem;
+    justify-content: center;
+}
+
+#temporary-work-list-form li{
+    justify-content: space-around;
+    width: 135vmin;
+}
+
+
+.temporary-work-list li{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: #E0D1FF;
+    padding: 0.2rem;
+    padding-right: 1rem;
+    border-radius: 15px;
+    list-style: none;
+    width: 135vmin;
+}
+
+.temporary-work-list li span{
+    margin-left: 1rem;
+}
+
+.temporary-work-list div{
+    border: 5px solid #E0D1FF;
+    border-radius: 15px;
+}

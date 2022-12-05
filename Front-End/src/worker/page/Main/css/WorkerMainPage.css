@@ -1,0 +1,39 @@
+.worker-main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.worker-main-header{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.WorkerMainSession{
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+.BottomMenu{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 650px){
+    .worker-main-header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .WorkerMainSession{
+        padding: 20px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .BottomMenu{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

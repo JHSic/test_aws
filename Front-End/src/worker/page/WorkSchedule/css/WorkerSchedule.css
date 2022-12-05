@@ -1,0 +1,36 @@
+.worker-schedule-conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.worker-schedule-header{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.worker-schedule-main{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.worker-schedule-bottomMenu{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 650px){
+    .worker-schedule-header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .worker-schedule-main{
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .worker-schedule-bottomMenu{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

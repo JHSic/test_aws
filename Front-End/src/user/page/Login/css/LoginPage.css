@@ -1,0 +1,114 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.login{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-icon{
+    width: 20rem;
+}
+
+.login-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+@media screen and (min-width: 320px){
+
+    .login-banner>span:nth-child(1){
+        font-size: 5rem;
+        font-weight: bold;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .login-banner>span:nth-child(1){
+        font-size: 4rem;
+        font-weight: bold;
+        margin: auto;
+    }
+}
+
+
+.login-banner>span:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+    margin: auto;
+}
+
+.login-form-box{
+    margin-top: 3%;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login input{
+    background-color: #D9D9D9;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 30px;
+    width: 15rem;
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+.login>input:nth-child(1){
+    margin-bottom: 0.3rem;
+}
+
+.login-button:hover{
+    background-color: #E497F7;
+    transition: 0.5s;
+}
+
+.login-button{
+    margin-top: 1rem;
+    width: 13rem;
+    height: 2rem;
+    background-color: #A87EFF;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.login-sign-up{
+    margin-top: 1rem;
+    color: #854BFF;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}

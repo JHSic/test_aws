@@ -1,0 +1,36 @@
+
+.worker-temporary-session-requist-button-box{
+    display: flex;
+    justify-content: center;
+}
+
+.worker-temporary-sub-requist-button{
+    width: 10rem;
+    height: 1.3rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #A87EFF;
+    cursor: pointer;
+}
+
+.worker-temporary-session-select-date span{
+    color: blue;
+    margin-left: 1rem;
+    font-size: medium;
+}
+
+.worker-temporary-session-select-button button{
+    width: 10rem;
+    height: 1.3rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #D2D2D2;
+    cursor: pointer;
+}
+
+.worker-temporary-session-select-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}

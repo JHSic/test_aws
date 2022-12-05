@@ -1,0 +1,62 @@
+
+
+.worker-session-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.display-attend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9162f7;
+    width: 17rem;
+    height: 3rem;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.display-month-year{
+    font-size: 1.7rem;
+    padding: 10px;
+    display: flex;
+}
+
+.display-month-left-allow{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.display-month-ringt-allow{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.worker-session-statistics{
+    display: flex;
+    flex-direction: column;
+    background: #E0D1FF;
+    width: 25rem;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.worker-session-statistics-time{
+    display: flex;
+    justify-content: space-around;
+}
+
+.worker-session-statistics-salary{
+    display: flex;
+    justify-content: space-around;
+}
+
+.worker-session-schedule-table{
+    width: 100%;
+    padding-bottom: 10px;
+}

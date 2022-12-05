@@ -1,0 +1,35 @@
+
+.worker-schedule-header-session{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: #854BFF dashed;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.worker-schedule-header-session-logout-button{
+    align-self: flex-start;
+    border: none;
+    background: white;
+    color: #854BFF;
+    cursor: pointer;
+}
+
+.worker-schedule-header-sessionmain-icon{
+    width: 22%;
+    margin-bottom: 15px;
+}
+
+.worker-schedule-header-session-title{
+    display: flex;
+    justify-content: center;
+    background-color: #E0D1FF;
+    border-radius: 15px;
+    width: 12rem;
+    align-items: center;
+    font-weight: 50px;
+    font-size: large;
+    margin: 10px;
+}

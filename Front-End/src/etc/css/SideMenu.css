@@ -1,0 +1,44 @@
+.SideMenu{
+    width: 300px;
+    background-color: #E0D1FF;
+    border-top-right-radius: 30px;
+}
+
+.SideTitle{
+    margin: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.plus-minus{
+    width: 15px;
+    height: 15px;
+}
+
+.menu{
+    font-size: 20px;
+}
+
+.menu_main_title{
+    width: 280px;
+    height: auto;
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    text-decoration-line: none;
+}
+
+.menu_title{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_contents{
+    width: 250px;
+    height: auto;
+    margin-left: 10px;
+}
+a, a:visited {
+    text-decoration: none;
+    color: black;
+}

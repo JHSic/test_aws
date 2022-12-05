@@ -1,0 +1,19 @@
+
+
+.schedule-table-box{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.schedule-table-sendButton{
+    align-self: center;
+    font-weight: bolder;
+    background-color: #E0D1FF;
+    width: 9rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 3px;
+}

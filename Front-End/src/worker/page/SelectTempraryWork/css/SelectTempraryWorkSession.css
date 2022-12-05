@@ -1,0 +1,64 @@
+
+
+.worker-select-temporary-session-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.worker-select-temporary-session-button-container{
+    display: flex;
+    flex-direction: column;
+    width: 6rem;
+}
+
+.worker-select-temporary-session-button-container button{
+    width: 5rem;
+    height: 1.3rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    border: none;
+    background-color:#e4d8fc;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-color: lightgray;
+}
+
+.button2:hover{
+    background-color: lightgray;
+}
+
+.worker-select-temporary-session-reaquist-button{
+    margin-top: 1rem;
+}
+.worker-select-temporary-session-reaquist-list-title{
+    color: #0047FF;
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+.worker-select-temporary-session-list-box{
+    display: flex;
+}
+
+.worker-select-temporary-session-reaquist-select-list{
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+    border: none;
+}
+
+.worker-select-temporary-session-reaquist-list{
+    border: 1px solid black;
+    height: 300px;
+    overflow: scroll;
+}
+
+.worker-select-temporary-session-reaquist-list input{
+    cursor: pointer;
+}

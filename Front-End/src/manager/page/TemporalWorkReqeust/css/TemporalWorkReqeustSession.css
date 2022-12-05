@@ -1,0 +1,73 @@
+.TemporalWorkReqeustSession{
+    width: 100%;
+    height: auto;
+}
+
+.TemporalWorkReqeustMain{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    border-top: 3px solid #A87EFF;
+    background-color: white;
+}
+
+.temporalworker_contents{
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    height: 600px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+    border: solid 2px #A87EFF;
+}
+
+.temporalworker_element_title{
+    color: black;
+    width: 740px;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.temporalworker_element{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #E0D1FF;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.temporal_button{
+    display: flex;
+    flex: row;
+    width: 740px;
+    height: 400px;
+}
+
+.temporal_btn{
+    margin: 40px;
+    margin-left: 100px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background-color: #A87EFF;
+    font-size: 20px;
+}
+
+.main_elements{
+    margin: 10px;
+}
